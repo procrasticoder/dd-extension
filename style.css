@@ -1,0 +1,38 @@
+*{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+.col-header:hover{
+    background-color: rgb(198, 198, 196);
+    cursor: pointer;
+}
+
+.my-container{
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+}
+.selection-tab{
+    width: fit-content;
+    height: fit-content;
+    margin: 7.5px;
+    background-color: green;
+    border-radius: 5px;
+   
+}
+
+.drag{
+    width: fit-content;
+    height: 30px;
+    border-radius: 5px;
+    padding: 2px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
